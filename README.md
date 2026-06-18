@@ -1,87 +1,145 @@
-# Welcome to React Router!
+# 🚀 AI-Powered Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An intelligent Resume Analysis Platform built with React, TypeScript, React Router, Puter AI, and PDF processing technologies.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+This application helps job seekers evaluate their resumes against specific job requirements, identify skill gaps, receive ATS-focused feedback, and improve their chances of getting shortlisted.
 
-## Features
+## 🌐 Live Demo
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+🔗 https://ai-resume-analyzer-livid-seven.vercel.app/
 
-## Getting Started
+## 💻 GitHub Repository
 
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+🔗 https://github.com/gima2003/ai-resume-analyzer
 
 ---
 
-Built with ❤️ using React Router.
+## 📌 Features
+
+### 📄 Resume Upload
+- Upload resumes in PDF format
+- Drag & drop support
+- File validation and size restrictions
+
+### 🤖 AI Resume Analysis
+- ATS-focused resume evaluation
+- Resume-to-job matching
+- Skill gap identification
+- Personalized improvement suggestions
+
+### 🎯 Job-Specific Evaluation
+- Company Name input
+- Job Title input
+- Job Description input
+- Context-aware resume assessment
+
+### 📊 Resume Insights
+- ATS compatibility scoring
+- Skills analysis
+- Resume quality feedback
+- Areas for improvement
+
+### ☁️ Cloud Integration
+- Puter File Storage
+- Puter Key-Value Database
+- Puter AI Integration
+
+### 🌍 Deployment
+- Hosted on Vercel
+- Responsive design
+- Modern UI/UX
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React
+- TypeScript
+- React Router
+- Tailwind CSS
+
+### AI & Backend Services
+- Puter.js
+- Puter AI
+- Puter KV Database
+- Puter File Storage
+
+### PDF Processing
+- pdfjs-dist
+- PDF to Image Conversion
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── FileUploader.tsx
+│   ├── Navbar.tsx
+│
+├── routes/
+│   ├── upload.tsx
+│   ├── home.tsx
+│
+├── lib/
+│   ├── puter.ts
+│   ├── pdf2img.ts
+│   ├── utils.ts
+│
+├── constants/
+│
+└── types/
+```
+
+<img width="1883" height="868" alt="{8FBD7585-A691-40F5-A28E-5EE6E19610B2}" src="https://github.com/user-attachments/assets/9c9305ae-5eba-4528-b9dc-2fb1da83edbb" />
+
+<img width="1463" height="860" alt="{794955F5-0A7E-4C7C-B024-85C832FC4321}" src="https://github.com/user-attachments/assets/e8b1d2d8-6f57-47ee-8dd5-37aff295f8d5" />
+
+---
+
+## 🔄 Workflow
+
+1. User uploads a resume (PDF)
+2. Resume is stored using Puter File Storage
+3. PDF is converted into an image
+4. Resume data is saved in Puter KV Database
+5. AI analyzes the resume against the job requirements
+6. ATS feedback is generated
+7. Results are displayed to the user
+
+---
+## 🎯 Project Goals
+
+This project was developed to:
+
+- Help job seekers improve their resumes
+- Simulate ATS screening systems
+- Demonstrate AI integration in real-world applications
+- Explore resume intelligence and career analytics
+
+---
+
+## 🚧 Future Improvements
+
+- Resume keyword extraction
+- Resume-to-job similarity scoring
+- Multiple resume support
+- Resume history dashboard
+- Data visualization of ATS scores
+- Machine Learning-based resume recommendations
+- Industry-specific feedback generation
+
+---
+
+## 👩‍💻 Author
+
+### Gimhani Pabodha
+
+BSc (Hons) Information Technology – Data Science  
+Sri Lanka Institute of Information Technology (SLIIT)
